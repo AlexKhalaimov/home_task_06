@@ -1,0 +1,611 @@
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.wrapper{
+    width: 909px;
+    margin: auto;
+    margin-top: 29px;
+}
+.wrapper_content{
+    width: 909px;
+    height: 1100px;
+    margin-bottom: 9px;
+}
+    /*HEAADER*/
+header{
+    width: 909px;
+}
+.wrapper_head{
+    width: 909px;
+
+}
+.phone  img{
+    width: 19px;
+    height: 19px;
+    margin-top: 4px;
+    margin-left: 7px;
+    background-color: #f10000;
+    background-image: linear-gradient(to top, #206988 0%, #114165 59%, #0c3256 100%);
+    border: 1px solid transparent;
+    border-radius: 50%;
+    display: block;
+    float: left;
+    transform: rotate(11deg);
+}
+
+.phone{
+    width: 305px;
+    height: 30px;
+    margin-right: 2px;
+    float: left;
+    display: block;
+}
+.phone_numb1{
+    line-height: 30px;
+width: 132px;
+vertical-align: middle;
+color: #5e696d;
+font-family: Arial;
+font-size: 18px;
+font-weight: 400;
+display: block;
+float: left;
+margin-left: 3px;
+letter-spacing: 0.5px;
+
+}
+.phone_numb2{
+    line-height: 30px;
+    width: 132px;
+    vertical-align: middle;
+    color: #5e696d;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: 400;
+    display: block;
+    float: left;
+    margin-left: 5px;
+    letter-spacing: 0.5px;
+
+}
+.autorization_form{
+    width: 489px;
+    height: 26px;
+    margin-left: 8px;
+    padding-left: 6px;
+    line-height: 22px;
+    background-color: #b1bcc0;
+    background-image: linear-gradient(180deg, #206988 0%, #114165 59%, #0c3256 100%);
+    border-radius: 4px;
+    box-shadow: 1.5px 2.6px 3px rgba(150, 150, 150, 0.75);
+    display: block;
+    float: left;
+    position: relative;
+}
+.log_icon{
+    width: 14px;
+    height: 18px;
+    display: block;
+    float: left;
+    margin: 4px 3px 0 0;
+}
+input.login{
+    box-sizing: border-box;
+    width: 115px;
+    margin: 0 3px 3px 0;
+    padding-bottom: 4px;
+    height: 18px;
+    text-indent: 4px;
+
+}
+input.password{
+    box-sizing: border-box;
+    width: 114px;
+    margin: 0 0 3px 0;
+    padding-bottom: 4px;
+    height: 18px;
+    text-indent: 4px;
+}
+input.login::-webkit-input-placeholder{
+    color: #97a2a6;
+    font-family: "Lucida Sans Unicode";
+    font-size: 11px;
+    font-weight: 400;
+    vertical-align: 6px;
+    height: 14px;
+
+}
+input.password::-webkit-input-placeholder{
+    color: #97a2a6;
+    font-family: "Lucida Sans Unicode";
+    font-size: 11px;
+    font-weight: 400;
+}
+.autorization_form a:last-of-type{
+    color: #bfbfbf;
+    font-family: "Lucida Sans Unicode";
+    font-size: 12px;
+    font-weight: 400;
+    text-decoration: underline;
+}
+.submit_button{
+    width: 35px;
+    height: 20px;
+    padding: 0;
+    color: white;
+    font-family: "Lucida Sans Unicode";
+    font-size: 11px;
+    font-weight: 400;
+    background-color: transparent;
+    border-color: transparent;
+    border-radius: 0;
+    cursor: pointer;
+    letter-spacing: -0.5px;
+}
+.vl{
+    position: absolute;
+    top: 9px;
+    left: 296px;
+
+}
+
+.autorization_form a{
+    color: white;
+    font-family: "Lucida Sans Unicode";
+    font-size: 11px;
+    font-weight: 400;
+    text-decoration: none;
+    vertical-align: middle;
+    line-height: 17px;
+
+}
+
+.autorization_form a span{
+    letter-spacing: -0.3px;
+    padding-left: 3px;
+}
+.autorization_form a:first-of-type{
+
+    margin-right: 14px;
+}
+.navigation{
+
+    float: left;
+    margin: 2px 0 0 16px;
+    width: 74px;
+    height: 21px;
+    background-color: white;
+    border: 1px solid #bdc4c7;
+    border-radius: 11px;
+
+}
+.navigation a{
+    display: block;
+    width: 14px;
+    height: 10px;
+    float: left;
+    padding: 1px 2px 1px 6px;
+
+}
+.navigation :last-child{
+    padding-left: 3px;
+}
+.big_pic{
+    margin: 6px 0;
+    height: 237px;
+}
+    /*NAVIGATION*/
+nav{
+    width: 912px;
+    height: 32px;
+    background-color: white;
+    background-image: linear-gradient(to top, black 0%, #576068 100%);
+    border: 1px solid #0d1642;
+    border-radius: 5px;
+    box-shadow: 1.5px 2.6px 5px rgba(0, 0, 0, 0.75);
+
+}
+.header_menu{
+    width: 662px;
+    height: 32px;
+    float: left;
+}
+.header_menu li:first-of-type{
+    margin-left: 125px;
+
+}
+ nav li  span{
+     font-family: "Lucida Sans Unicode";
+     font-size: 14px;
+     font-weight: 400;
+     color: white;
+     text-decoration: none;
+
+}
+nav li a{
+    font-family: "Lucida Sans Unicode";
+    font-size: 14px;
+    font-weight: 400;
+    color: #b1bcc0;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    padding: 0 15px 0 15px;
+}
+.header_menu li:first-of-type a{
+    padding-left: 19px;
+}
+.header_menu li:last-of-type a{
+    padding-left: 1px;
+}
+nav ul li{
+    display: block;
+    float: left;
+    box-sizing: border-box;
+    line-height: 34px;
+    border: 1px solid transparent;
+}
+nav ul li:hover{
+    background-color: #f60303;
+    background-image: linear-gradient(180deg, #206988 0%, #114165 59%, #0c3256 100%);
+    border-radius: 50px;
+}
+.cart_wrapper{
+    float: left;
+    width: 230px;
+    height: 32px;
+    line-height: 28px;
+    text-align: center;
+    position: relative;
+    padding: 3px 0 0 0px;
+}
+.cart_wrapper a{
+    text-decoration: none;
+}
+.cart_p{
+    width: 70px;
+    float: left;
+    padding-left: 41px;
+}
+.summ_p{
+    width: 70px;
+    float: left;
+    padding-right: 0px;
+}
+.null_p{
+    width: 49px;
+    float: right;
+}
+.goods{
+    color: #929b9f;
+    font-family: Arial;
+    font-size: 11px;
+    font-weight: 400;
+}
+.goods_a{
+    color: #0d5a8f;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: 400;
+}
+.summ{
+    color: #8a9296;
+    font-family: Arial;
+    font-size: 11px;
+    font-weight: 400;
+}
+.summ_a{
+    color: #0d5a8f;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: 400;
+}
+.cart_icon img{
+    position: absolute;
+    top: 9px;
+    left: 20px;
+
+}
+.form_pic{
+    margin: 9px 0 7px 6px;
+    width: 920px;
+}
+    /*LEFT MENU*/
+.menu_header{
+    width: 180px;
+    height: 25px;
+    margin-bottom: 14px;
+    border: 1px solid #79878d;
+    box-shadow: 1.5px 2.6px 3px rgba(150, 150, 150, 0.75);
+    border-radius: 15px;
+    margin-top: 3px;
+}
+.menu_header span{
+    color: #114165;
+    font-family: "Lucida Sans Unicode";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 26px;
+    vertical-align: middle;
+}
+.menu_header img{
+    line-height: 25px;
+    vertical-align: middle;
+    padding: 0 2px 3px 2px;
+}
+.left_menu{
+    float: left;
+    width: 183px;
+}
+.left_menu ul{
+    margin: 0 0 -5px 37px;
+
+}
+.list_header{
+    width: 150px;
+    height: 26px;
+    background-color: white;
+    border: 1px solid #79878d;
+    border-radius: 15px;
+    vertical-align: middle;
+    line-height: 26px;
+}
+.left_menu .list_header:last-of-type{
+    height: 25px;
+    margin-bottom: 2px;
+}
+.list_header span{
+    color: #114165;
+font-family: "Lucida Sans Unicode";
+font-size: 14px;
+font-weight: 400;
+vertical-align: middle;
+}
+.list_header img{
+    vertical-align: middle;
+    padding: 0 3px 4px 4px;
+}
+.left_menu ul li a{
+    text-decoration: none;
+    color: #465961;
+    font-family: "Lucida Sans Unicode";
+    font-size: 13px;
+    font-weight: 400;
+
+}
+.left_menu ul li a:hover{
+    color: #0c3256;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: 700;
+    font-style: italic;
+    text-decoration: underline;
+}
+.left_menu ul li:before{
+    content: "\ffee";
+    padding-right: 3px;
+}
+.left_menu ul li:before:hover{
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+}
+.left_menu ul li{
+    padding: 3px 0 7px 0;
+    letter-spacing: -0.1px;
+}
+        /*MAIN/*/
+main{
+    float: left;
+    width: 526px;
+    height: 614px;
+    background-color: white;
+    background-image: linear-gradient(to top, #93a7b0, #e5e7e8);
+    border-radius: 3px;
+    padding-top: 13px;
+    margin-left: 9px;
+    margin-right: 8px;
+}
+.hankook, .nokian, .goodyear{
+    width: 139px;
+    height: 175px;
+}
+.hankook p, .nokian p, .goodyear p{
+    width: 136px;
+    height: 125px;
+    background-color: white;
+    border: 1px solid #a4aeb1;
+    border-radius: 7px;
+}
+.center_col, .right_col{
+    float: left;
+    margin-left: 30px;
+}
+.left_col{
+    float: left;
+    margin-left: 22px;
+}
+.left_col .goodyear{
+    margin-bottom: 28px;
+}
+.center_col .nokian{
+    margin-bottom: 28px;
+}
+.right_col .hankook{
+    margin-bottom: 28px;
+}
+.model{
+    color: #1f2528;
+    font-size: 13px;
+
+}
+.price{
+    font-size: 16px;
+    color: #114165;
+    font-family: Arial;
+    font-weight: 700;
+    font-style: italic;
+    line-height: 10px;
+    padding-left: 7px;
+}
+.hrn{
+    font-size: 12px;
+    color: #114165;
+    font-family: Arial;
+    font-weight: 700;
+    font-style: italic;
+    line-height: 10px;
+    padding-left: 4px;
+}
+.goodyear figure, .nokian figure, .hankook figure{
+    margin-bottom: 5px;
+}
+.goodyear figure p img, .nokian figure p img, .hankook figure p img{
+    padding-top: 4px;
+}
+figcaption{
+    margin-top: -2px;
+    margin-bottom: 1px;
+}
+figcaption span{
+    letter-spacing: 0.75px
+}
+.goodyear a, .nokian a, .hankook a{
+    text-decoration:  none;
+    font-family: "Lucida Sans Unicode";
+    font-weight: 400;
+    line-height: 13px;
+    color: #206988;
+    font-size: 15px;
+}
+.goodyear, .nokian, .hankook{
+    text-align: center;
+}
+.nokian:first-of-type{
+    margin-bottom: 26px;
+}
+.nokian:nth-of-type(2){
+    margin-bottom: 30px;
+}
+
+    /*RIGHT_MENU*/
+.right_menu{
+    width: 183px;
+    height: 300px;
+    float: left;
+}
+.right_header{
+    margin: 0 0 14px 0;
+    padding: 0 0 0 0;
+    letter-spacing: 0.5px;
+    color: #0c3256;
+font-family: "Lucida Sans Unicode";
+font-size: 14px;
+font-weight: 400;
+line-height: 28px;
+}
+.right_list{
+    width: 136px;
+    margin: 13px 0 -2px 15px;
+    padding: 0 0 0 0;
+    letter-spacing: 0px;
+}
+.right_header img{
+    padding: 0 6px 6px 4px;
+}
+
+}.brand{
+    margin-left: 14px;
+}
+.brand label{
+    display: list-item;
+    list-style: none;
+    color: #465961;
+    font-family: "Lucida Sans Unicode";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-left: 30px;
+    height: 25px;
+}
+.brand input[type="checkbox"]{
+    margin: 10px 11px 0px -5px;
+}
+.brand input[type="submit"]{
+    background-color: black;
+background-image: linear-gradient(180deg, #206988 0%, #114165 59%, #0c3256 100%);
+border: 1px solid #a7abae;
+border-radius: 10px;
+color: #e5e9ea;
+font-family: Arial;
+font-size: 11px;
+font-weight: 400;
+cursor: pointer;
+margin: 21px 0 0 26px;
+width: 81px;
+height: 25px;
+letter-spacing: 0.6px;
+
+}
+.brand label:last-of-type {
+    line-height: 25px;
+}
+
+
+
+        /*FOOTER*/
+
+.bottom_brand{
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+.bottom_brand  img{
+    vertical-align: top;
+    padding-left: 11px;
+}
+
+.footer_link{
+    padding-top: 9px;
+}
+.footer_link ul li{
+    display: inline-block;
+    box-sizing: border-box;
+    padding-left: 13px;
+    padding-right: 10px;
+
+}
+.footer_link ul{
+    padding-bottom: 10px;
+}
+.footer_link ul li:not(:first-child){
+    border-left: 1px solid #bec6c9;
+
+}
+
+.footer_link ul li a{
+    display: block;
+    text-decoration: none;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #bec6c9;
+}
+.footer_link{
+    width: 910px;
+    height: 101px;
+    background-color: #213a4d;
+    border: 1px solid #242a3c;
+    text-align: center;
+}
+.footer_link p{
+    color: #7f4740;
+    font-family: Arial;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 18px;
+}

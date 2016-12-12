@@ -84,7 +84,15 @@ letter-spacing: 0.5px;
     float: left;
     position: relative;
 }
-.log_icon{
+/*.log_icon{
+    width: 14px;
+    height: 18px;
+    display: block;
+    float: left;
+    margin: 4px 3px 0 0;
+}*/
+.autorization_form:before{
+    content: url(../img/autorization.png);
     width: 14px;
     height: 18px;
     display: block;
@@ -147,7 +155,7 @@ input.password::-webkit-input-placeholder{
 .vl{
     position: absolute;
     top: 9px;
-    left: 296px;
+    left: 298px;
 
 }
 
